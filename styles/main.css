@@ -1,4 +1,6 @@
 body{
+    width: 100%;
+    min-height: 100vh;
     background-color: #0E0E0E;
 }
 #container{
@@ -10,16 +12,19 @@ height: 40px;
 background-color: #1F2937;
 display: flex;
 color: aliceblue;
+align-items: center;
 }
 .logo{
-    font-size: 20pt;
+    font-size: 2vw;
     font-family: 'Times New Roman', Times, serif;
-    margin-left: 100px;
+    margin-left: 2vw;
     flex-grow: 1;
 }
 .top-menu{
     flex-grow: 1;
     padding-right: 10px;
+    font-size: 2vw;
+
 }
 ul{
     display: flex;
@@ -30,5 +35,41 @@ ul{
 }
 ul li{
     padding-right: 20px;
+    
+}
+.slider-section{
+    display: flex;
+    flex: 1 1 auto;
+    min-height: 30vw;
+    justify-content: space-around;
+    color: aliceblue;
+    background-color:#1F2937 ;
+    align-items: center;
+    
+}
+.slider-left-part{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 4vw;
+    
+}
+.slider-right-part{
+   
+    flex-grow: 1;
+    width: 70vw;
+    height: 20vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.slider-right-part img{
+    width: 60%;
+    height: 60%;
+}
+.slider-left-part button{
+    width: max-content;
+    background-color: blue;
     
 }
