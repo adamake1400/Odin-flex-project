@@ -9,6 +9,13 @@ body{
 }
 button{
     border-radius: 5px;
+    background-color: #3B82F6;
+    color: aliceblue;
+    border: 1px solid white;
+
+}
+img{
+    border-radius: 20px;
 }
 .header{
 height: 40px;
@@ -128,11 +135,15 @@ ul li{
     justify-content: space-around;
     align-items: center;
     flex-grow: 1;
-    border-radius: 25px;
-    
+    border-radius: 25px;   
 }
-.call-part button{
-    background-color: #3B82F6;
+.footer{
+    height: 7vw;
+    text-align: center;
     color: aliceblue;
-    border: 1px solid white;
+    background-color: #0E0E0E;
+   
+}
+.footer p{
+
 }
