@@ -7,6 +7,9 @@ body{
     width: 80%;
     margin-left: 10%;
 }
+button{
+    border-radius: 5px;
+}
 .header{
 height: 40px;
 background-color: #1F2937;
@@ -72,4 +75,64 @@ ul li{
     width: max-content;
     background-color: blue;
     
+}
+.photos-section{
+    background-color: #ffff;
+    height: 25vw;
+}
+.images-header{
+   text-align: center;
+    color: #202A38;
+    margin: 0;
+}
+.images-header h2{
+    margin: 0;
+}
+.images-part{
+    display: flex;
+    margin-left: 2vw;
+    height: 20vw;
+}
+.images-part .images{
+    height: 80%;
+    width: 80%;
+}
+.images-part .images img{
+    height: 50%;
+    border: 2pt solid blue;
+}
+.text-section{
+    height: 20vw;
+    background-color:#E5E7EB ;
+    color: #0E0E0E;
+    margin-top: 0;
+    border: px dashed red;
+}
+.text-section p{
+    text-align: center;
+    padding: 2vw;
+    margin: 0;
+}
+.signUp-section{
+    height: 20vw;
+    background-color: aliceblue;
+    align-content: center;
+    display: flex;
+    align-items: center;
+}
+.call-part{
+    margin: 0 4vw 0 4vw;
+    background-color:#3B82F6;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+    border-radius: 25px;
+    
+}
+.call-part button{
+    background-color: #3B82F6;
+    color: aliceblue;
+    border: 1px solid white;
 }
