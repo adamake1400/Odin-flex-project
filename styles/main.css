@@ -1,7 +1,7 @@
 body{
-    width: 100%;
-    min-height: 100vh;
     background-color: #0E0E0E;
+    font-family: 'Roboto', arial;
+    text-align: center;
 }
 #container{
     width: 80%;
@@ -32,19 +32,14 @@ align-items: center;
 }
 .top-menu{
     flex-grow: 1;
-    padding-right: 10px;
-    font-size: 2vw;
-
-}
-ul{
-    display: flex;
-    list-style: none;
-    justify-content: flex-end;
-    margin-right: 100px;
-    
-}
-ul li{
     padding-right: 20px;
+    font-size: 1vw;
+}
+
+.top-menu a{
+    padding-right: 20px;
+    text-decoration: none;
+    font-family: 'Roboto','arial';
     
 }
 .slider-section{
