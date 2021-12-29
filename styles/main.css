@@ -57,7 +57,10 @@ align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
     margin-left: 4vw;
-    
+    font-family: 'Roboto', arial;
+}
+.slider-left-part p {
+    opacity: 0.7;
 }
 .slider-right-part{
    
@@ -74,8 +77,18 @@ align-items: center;
     height: 60%;
 }
 .slider-left-part button{
-    width: max-content;
-    background-color: blue;
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 20px 0 0 150px;
     
 }
 .photos-section{
